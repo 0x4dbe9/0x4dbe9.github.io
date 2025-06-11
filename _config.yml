@@ -20,13 +20,13 @@ author:
 #
 # If you wish to use the gem-version of Minima with or without a Gemfile, use
 #   the following setting:
-# theme: minima
+theme: minima
 #
 # **OR** if you wish to use the theme directly from the GitHub repository by
 #   bypassing a Gemfile, use the following setting instead.
 #   It is best that you lock to a particular commit and update if uptream changes
 #   do not affect your site adversely.
-remote_theme: jekyll/minima@d4d779a
+# remote_theme: jekyll/minima@d4d779a
 #
 # Minima requires the following plugins:
 plugins:
@@ -35,9 +35,9 @@ plugins:
 #
 # Uncomment the following setting if you wish to disable deprecation warnings
 #   from newer versions of sass converter. Adapt as required.
-# sass:
-#   quiet_deps: true
-#   silence_deprecations: [import]
+sass:
+  quiet_deps: true
+  silence_deprecations: [import]
 
 
 # Minima-specific settings (applicable to Minima v3 and above only)
@@ -46,7 +46,7 @@ plugins:
 #  *All described config keys below should be nested under the top-level
 #   `minima` key.*
 #
-# minima:
+minima:
 #   Minima skin selection. Available skins are:
 #     * classic            Default, light color scheme.
 #     * dark               Dark variant of the classic skin.
@@ -54,14 +54,14 @@ plugins:
 #     * solarized-light    Light variant of solarized color scheme.
 #     * solarized-dark     Dark variant of solarized color scheme.
 #     * solarized          Adaptive skin for solarized color scheme skins.
-#   skin: auto
+  skin: auto
 #
 #   Specific pages for site navigation.
 #     If you wish to link only specific pages in the site-navigation, use this
 #     and list the `path` property (as represented via Liquid) of the pages in
 #     the order they should be rendered.
-#   nav_pages:
-#     - about.md
+nav_pages:
+  - about.md
 #
 #   Set to `true` to show excerpts on the homepage.
 #   show_excerpts: false
