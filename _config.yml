@@ -78,7 +78,7 @@ show_excerpts: false
 #       * icon     Font Awesome icon id. `github` corresponds to `fa-github`.
 #       * url      Full URL of social profile.
 social_links:
-  - title: "0x4dbe9 GitHub"
+  - title: 0x4dbe9 GitHub
     icon: github
     url: "https://github.com/0x4dbe9"
 #     - title: Jekyll at X (formerly Twitter)
@@ -89,4 +89,4 @@ social_links:
 #     RSS / Atom feed link is always rendered as the last item of social-links
 #     list. Set below key to `true` to not have the link to feed rendered as
 #     part of social-links list.
-#   hide_site_feed_link: false
+hide_site_feed_link: false
